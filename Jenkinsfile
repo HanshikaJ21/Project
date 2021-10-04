@@ -1,7 +1,7 @@
 pipeline {
     agent any 
     stages {
-        stage('Clone Repository & clean') { 
+        stage('Clone Repository & Clean') { 
             steps {
               sh "git clone https://github.com/JasujaHanshika/The-sparks-Foundation-project.git"
               sh "mvn clean -f The-sparks-Foundation-project"
